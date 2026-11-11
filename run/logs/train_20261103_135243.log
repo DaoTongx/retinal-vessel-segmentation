@@ -1,0 +1,209 @@
+[13:52:43] ======================================================================
+[13:52:43] data_root : E:\machine learing\project4\data\segmentation
+[13:52:43] device    : cpu | threads 8 | torch 2.14.1+cpu
+[13:52:43] encoder   : resnet34 | size 512 | batch 4
+[13:52:43] folds 5 | epochs 80 | train 20 | test 20
+[13:52:43] ======================================================================
+[13:52:43] 
+[13:52:43] Fold 0 | train 16 | val 4
+[13:52:53] [fold 0] ep 001 | loss 1.7399 | dice 0.1592 | best 0.1592
+[13:53:03] [fold 0] ep 002 | loss 1.5455 | dice 0.2046 | best 0.2046
+[13:53:13] [fold 0] ep 003 | loss 1.3799 | dice 0.2467 | best 0.2467
+[13:53:23] [fold 0] ep 004 | loss 1.2427 | dice 0.2534 | best 0.2534
+[13:53:33] [fold 0] ep 005 | loss 1.1481 | dice 0.3335 | best 0.3335
+[13:53:42] [fold 0] ep 006 | loss 1.0809 | dice 0.3838 | best 0.3838
+[13:53:52] [fold 0] ep 007 | loss 1.0182 | dice 0.4812 | best 0.4812
+[13:54:22] [fold 0] ep 010 | loss 0.8587 | dice 0.4007 | best 0.4812
+[13:54:32] [fold 0] ep 011 | loss 0.8049 | dice 0.6115 | best 0.6115
+[13:54:42] [fold 0] ep 012 | loss 0.7596 | dice 0.6750 | best 0.6750
+[13:55:02] [fold 0] ep 014 | loss 0.6741 | dice 0.7279 | best 0.7279
+[13:55:12] [fold 0] ep 015 | loss 0.6455 | dice 0.7104 | best 0.7279
+[13:55:32] [fold 0] ep 017 | loss 0.6072 | dice 0.7321 | best 0.7321
+[13:55:52] [fold 0] ep 019 | loss 0.5520 | dice 0.7364 | best 0.7364
+[13:56:02] [fold 0] ep 020 | loss 0.5449 | dice 0.7422 | best 0.7422
+[13:56:13] [fold 0] ep 021 | loss 0.5225 | dice 0.7487 | best 0.7487
+[13:56:23] [fold 0] ep 022 | loss 0.4957 | dice 0.7651 | best 0.7651
+[13:56:53] [fold 0] ep 025 | loss 0.4702 | dice 0.7646 | best 0.7651
+[13:57:43] [fold 0] ep 030 | loss 0.4442 | dice 0.7619 | best 0.7651
+[13:58:23] [fold 0] ep 034 | loss 0.4229 | dice 0.7715 | best 0.7715
+[13:58:33] [fold 0] ep 035 | loss 0.4425 | dice 0.7561 | best 0.7715
+[13:58:53] [fold 0] ep 037 | loss 0.4145 | dice 0.7756 | best 0.7756
+[13:59:22] [fold 0] ep 040 | loss 0.4342 | dice 0.7515 | best 0.7756
+[14:00:12] [fold 0] ep 045 | loss 0.4214 | dice 0.7701 | best 0.7756
+[14:00:22] [fold 0] ep 046 | loss 0.4157 | dice 0.7775 | best 0.7775
+[14:01:01] [fold 0] ep 050 | loss 0.4160 | dice 0.7681 | best 0.7775
+[14:01:51] [fold 0] ep 055 | loss 0.4081 | dice 0.7614 | best 0.7775
+[14:02:40] [fold 0] ep 060 | loss 0.4059 | dice 0.7782 | best 0.7782
+[14:02:50] [fold 0] ep 061 | loss 0.3961 | dice 0.7823 | best 0.7823
+[14:03:30] [fold 0] ep 065 | loss 0.4019 | dice 0.7710 | best 0.7823
+[14:04:20] [fold 0] ep 070 | loss 0.3915 | dice 0.7732 | best 0.7823
+[14:05:10] [fold 0] ep 075 | loss 0.4000 | dice 0.7697 | best 0.7823
+[14:06:00] [fold 0] ep 080 | loss 0.4004 | dice 0.7710 | best 0.7823
+[14:06:00] [fold 0] DONE best=0.7823 @ep61 -> fold0.pth
+[14:06:01] 
+[14:06:01] Fold 1 | train 16 | val 4
+[14:06:11] [fold 1] ep 001 | loss 1.8152 | dice 0.1710 | best 0.1710
+[14:06:21] [fold 1] ep 002 | loss 1.6250 | dice 0.1841 | best 0.1841
+[14:06:31] [fold 1] ep 003 | loss 1.4837 | dice 0.2376 | best 0.2376
+[14:06:41] [fold 1] ep 004 | loss 1.3607 | dice 0.3104 | best 0.3104
+[14:06:50] [fold 1] ep 005 | loss 1.2961 | dice 0.2228 | best 0.3104
+[14:07:00] [fold 1] ep 006 | loss 1.2168 | dice 0.3719 | best 0.3719
+[14:07:10] [fold 1] ep 007 | loss 1.1269 | dice 0.4673 | best 0.4673
+[14:07:20] [fold 1] ep 008 | loss 1.0454 | dice 0.6152 | best 0.6152
+[14:07:30] [fold 1] ep 009 | loss 0.9684 | dice 0.6522 | best 0.6522
+[14:07:40] [fold 1] ep 010 | loss 0.9030 | dice 0.6587 | best 0.6587
+[14:07:50] [fold 1] ep 011 | loss 0.8342 | dice 0.6772 | best 0.6772
+[14:08:00] [fold 1] ep 012 | loss 0.7886 | dice 0.6793 | best 0.6793
+[14:08:20] [fold 1] ep 014 | loss 0.6972 | dice 0.6950 | best 0.6950
+[14:08:30] [fold 1] ep 015 | loss 0.6596 | dice 0.6977 | best 0.6977
+[14:08:50] [fold 1] ep 017 | loss 0.5920 | dice 0.7139 | best 0.7139
+[14:09:20] [fold 1] ep 020 | loss 0.5274 | dice 0.7022 | best 0.7139
+[14:09:30] [fold 1] ep 021 | loss 0.5118 | dice 0.7300 | best 0.7300
+[14:10:10] [fold 1] ep 025 | loss 0.4619 | dice 0.7236 | best 0.7300
+[14:10:59] [fold 1] ep 030 | loss 0.4490 | dice 0.6481 | best 0.7300
+[14:11:39] [fold 1] ep 034 | loss 0.4362 | dice 0.7355 | best 0.7355
+[14:11:49] [fold 1] ep 035 | loss 0.4232 | dice 0.7354 | best 0.7355
+[14:12:09] [fold 1] ep 037 | loss 0.4198 | dice 0.7445 | best 0.7445
+[14:12:39] [fold 1] ep 040 | loss 0.4066 | dice 0.7327 | best 0.7445
+[14:13:29] [fold 1] ep 045 | loss 0.4074 | dice 0.7203 | best 0.7445
+[14:13:39] [fold 1] ep 046 | loss 0.4000 | dice 0.7460 | best 0.7460
+[14:13:49] [fold 1] ep 047 | loss 0.4123 | dice 0.7492 | best 0.7492
+[14:14:19] [fold 1] ep 050 | loss 0.3973 | dice 0.7185 | best 0.7492
+[14:15:09] [fold 1] ep 055 | loss 0.3990 | dice 0.7238 | best 0.7492
+[14:15:59] [fold 1] ep 060 | loss 0.3898 | dice 0.7258 | best 0.7492
+[14:16:49] [fold 1] ep 065 | loss 0.3868 | dice 0.7415 | best 0.7492
+[14:17:39] [fold 1] ep 070 | loss 0.3930 | dice 0.7305 | best 0.7492
+[14:17:59] [fold 1] early stop at ep 72
+[14:17:59] [fold 1] DONE best=0.7492 @ep47 -> fold1.pth
+[14:18:00] 
+[14:18:00] Fold 2 | train 16 | val 4
+[14:18:10] [fold 2] ep 001 | loss 1.6086 | dice 0.1762 | best 0.1762
+[14:18:20] [fold 2] ep 002 | loss 1.4573 | dice 0.2375 | best 0.2375
+[14:18:30] [fold 2] ep 003 | loss 1.3023 | dice 0.2966 | best 0.2966
+[14:18:40] [fold 2] ep 004 | loss 1.1745 | dice 0.4403 | best 0.4403
+[14:18:50] [fold 2] ep 005 | loss 1.0635 | dice 0.5385 | best 0.5385
+[14:19:10] [fold 2] ep 007 | loss 0.8761 | dice 0.5779 | best 0.5779
+[14:19:20] [fold 2] ep 008 | loss 0.8058 | dice 0.6127 | best 0.6127
+[14:19:39] [fold 2] ep 010 | loss 0.6863 | dice 0.6718 | best 0.6718
+[14:19:49] [fold 2] ep 011 | loss 0.6432 | dice 0.6961 | best 0.6961
+[14:19:59] [fold 2] ep 012 | loss 0.6113 | dice 0.7378 | best 0.7378
+[14:20:09] [fold 2] ep 013 | loss 0.5748 | dice 0.7465 | best 0.7465
+[14:20:29] [fold 2] ep 015 | loss 0.5341 | dice 0.7513 | best 0.7513
+[14:20:39] [fold 2] ep 016 | loss 0.5151 | dice 0.7528 | best 0.7528
+[14:20:59] [fold 2] ep 018 | loss 0.4821 | dice 0.7646 | best 0.7646
+[14:21:09] [fold 2] ep 019 | loss 0.4848 | dice 0.7661 | best 0.7661
+[14:21:19] [fold 2] ep 020 | loss 0.4640 | dice 0.7503 | best 0.7661
+[14:22:08] [fold 2] ep 025 | loss 0.4502 | dice 0.7433 | best 0.7661
+[14:22:58] [fold 2] ep 030 | loss 0.4290 | dice 0.7502 | best 0.7661
+[14:23:48] [fold 2] ep 035 | loss 0.4238 | dice 0.7681 | best 0.7681
+[14:24:28] [fold 2] ep 039 | loss 0.4049 | dice 0.7682 | best 0.7682
+[14:24:38] [fold 2] ep 040 | loss 0.4090 | dice 0.7556 | best 0.7682
+[14:25:27] [fold 2] ep 045 | loss 0.4006 | dice 0.7540 | best 0.7682
+[14:25:37] [fold 2] ep 046 | loss 0.4087 | dice 0.7692 | best 0.7692
+[14:26:17] [fold 2] ep 050 | loss 0.3885 | dice 0.7762 | best 0.7762
+[14:27:06] [fold 2] ep 055 | loss 0.3914 | dice 0.7688 | best 0.7762
+[14:27:56] [fold 2] ep 060 | loss 0.3825 | dice 0.7593 | best 0.7762
+[14:28:46] [fold 2] ep 065 | loss 0.3822 | dice 0.7715 | best 0.7762
+[14:29:35] [fold 2] ep 070 | loss 0.3860 | dice 0.7581 | best 0.7762
+[14:30:25] [fold 2] ep 075 | loss 0.3880 | dice 0.7661 | best 0.7762
+[14:30:25] [fold 2] early stop at ep 75
+[14:30:25] [fold 2] DONE best=0.7762 @ep50 -> fold2.pth
+[14:30:26] 
+[14:30:26] Fold 3 | train 16 | val 4
+[14:30:36] [fold 3] ep 001 | loss 1.4233 | dice 0.2059 | best 0.2059
+[14:30:46] [fold 3] ep 002 | loss 1.3125 | dice 0.2847 | best 0.2847
+[14:31:06] [fold 3] ep 004 | loss 1.0593 | dice 0.3336 | best 0.3336
+[14:31:16] [fold 3] ep 005 | loss 0.9546 | dice 0.3315 | best 0.3336
+[14:31:26] [fold 3] ep 006 | loss 0.8684 | dice 0.6019 | best 0.6019
+[14:31:36] [fold 3] ep 007 | loss 0.8013 | dice 0.6602 | best 0.6602
+[14:31:46] [fold 3] ep 008 | loss 0.7421 | dice 0.6991 | best 0.6991
+[14:31:56] [fold 3] ep 009 | loss 0.6986 | dice 0.7151 | best 0.7151
+[14:32:06] [fold 3] ep 010 | loss 0.6418 | dice 0.6932 | best 0.7151
+[14:32:16] [fold 3] ep 011 | loss 0.6071 | dice 0.7229 | best 0.7229
+[14:32:36] [fold 3] ep 013 | loss 0.5514 | dice 0.7340 | best 0.7340
+[14:32:56] [fold 3] ep 015 | loss 0.5120 | dice 0.6770 | best 0.7340
+[14:33:36] [fold 3] ep 019 | loss 0.4659 | dice 0.7468 | best 0.7468
+[14:33:46] [fold 3] ep 020 | loss 0.4608 | dice 0.7255 | best 0.7468
+[14:34:35] [fold 3] ep 025 | loss 0.4310 | dice 0.7238 | best 0.7468
+[14:35:25] [fold 3] ep 030 | loss 0.4143 | dice 0.7406 | best 0.7468
+[14:36:15] [fold 3] ep 035 | loss 0.4073 | dice 0.7224 | best 0.7468
+[14:36:36] [fold 3] ep 037 | loss 0.4066 | dice 0.7515 | best 0.7515
+[14:36:46] [fold 3] ep 038 | loss 0.3985 | dice 0.7556 | best 0.7556
+[14:37:06] [fold 3] ep 040 | loss 0.3972 | dice 0.7097 | best 0.7556
+[14:37:55] [fold 3] ep 045 | loss 0.3956 | dice 0.7287 | best 0.7556
+[14:38:44] [fold 3] ep 050 | loss 0.3875 | dice 0.7599 | best 0.7599
+[14:39:34] [fold 3] ep 055 | loss 0.3882 | dice 0.7537 | best 0.7599
+[14:40:23] [fold 3] ep 060 | loss 0.3931 | dice 0.7414 | best 0.7599
+[14:41:12] [fold 3] ep 065 | loss 0.3735 | dice 0.7402 | best 0.7599
+[14:42:02] [fold 3] ep 070 | loss 0.3804 | dice 0.7496 | best 0.7599
+[14:42:51] [fold 3] ep 075 | loss 0.3860 | dice 0.7513 | best 0.7599
+[14:42:51] [fold 3] early stop at ep 75
+[14:42:51] [fold 3] DONE best=0.7599 @ep50 -> fold3.pth
+[14:42:52] 
+[14:42:52] Fold 4 | train 16 | val 4
+[14:43:02] [fold 4] ep 001 | loss 1.4893 | dice 0.1747 | best 0.1747
+[14:43:12] [fold 4] ep 002 | loss 1.3627 | dice 0.1991 | best 0.1991
+[14:43:22] [fold 4] ep 003 | loss 1.2235 | dice 0.2559 | best 0.2559
+[14:43:42] [fold 4] ep 005 | loss 0.9992 | dice 0.2827 | best 0.2827
+[14:43:51] [fold 4] ep 006 | loss 0.9115 | dice 0.5386 | best 0.5386
+[14:44:01] [fold 4] ep 007 | loss 0.8409 | dice 0.6022 | best 0.6022
+[14:44:11] [fold 4] ep 008 | loss 0.7708 | dice 0.6867 | best 0.6867
+[14:44:21] [fold 4] ep 009 | loss 0.7300 | dice 0.6932 | best 0.6932
+[14:44:31] [fold 4] ep 010 | loss 0.6858 | dice 0.6329 | best 0.6932
+[14:45:10] [fold 4] ep 014 | loss 0.5513 | dice 0.7283 | best 0.7283
+[14:45:20] [fold 4] ep 015 | loss 0.5345 | dice 0.6896 | best 0.7283
+[14:45:30] [fold 4] ep 016 | loss 0.5079 | dice 0.7332 | best 0.7332
+[14:45:50] [fold 4] ep 018 | loss 0.4834 | dice 0.7383 | best 0.7383
+[14:45:59] [fold 4] ep 019 | loss 0.4736 | dice 0.7543 | best 0.7543
+[14:46:09] [fold 4] ep 020 | loss 0.4713 | dice 0.7055 | best 0.7543
+[14:46:39] [fold 4] ep 023 | loss 0.4507 | dice 0.7567 | best 0.7567
+[14:46:58] [fold 4] ep 025 | loss 0.4409 | dice 0.7602 | best 0.7602
+[14:47:08] [fold 4] ep 026 | loss 0.4368 | dice 0.7627 | best 0.7627
+[14:47:18] [fold 4] ep 027 | loss 0.4496 | dice 0.7639 | best 0.7639
+[14:47:47] [fold 4] ep 030 | loss 0.4211 | dice 0.7439 | best 0.7639
+[14:48:27] [fold 4] ep 034 | loss 0.4205 | dice 0.7653 | best 0.7653
+[14:48:37] [fold 4] ep 035 | loss 0.4156 | dice 0.7515 | best 0.7653
+[14:49:06] [fold 4] ep 038 | loss 0.4141 | dice 0.7773 | best 0.7773
+[14:49:26] [fold 4] ep 040 | loss 0.4133 | dice 0.7644 | best 0.7773
+[14:50:16] [fold 4] ep 045 | loss 0.3937 | dice 0.7745 | best 0.7773
+[14:51:05] [fold 4] ep 050 | loss 0.3948 | dice 0.7805 | best 0.7805
+[14:51:55] [fold 4] ep 055 | loss 0.3908 | dice 0.7754 | best 0.7805
+[14:52:44] [fold 4] ep 060 | loss 0.3867 | dice 0.7802 | best 0.7805
+[14:53:33] [fold 4] ep 065 | loss 0.3972 | dice 0.7781 | best 0.7805
+[14:54:22] [fold 4] ep 070 | loss 0.3917 | dice 0.7755 | best 0.7805
+[14:55:11] [fold 4] ep 075 | loss 0.3919 | dice 0.7750 | best 0.7805
+[14:55:11] [fold 4] early stop at ep 75
+[14:55:11] [fold 4] DONE best=0.7805 @ep50 -> fold4.pth
+[14:55:12] 
+[14:55:12] CV mean dice = 0.7696 (+/- 0.0129)
+[14:55:15] 
+[14:55:15] OOF sweep best: thr=0.45 min_size=0 dice=0.7701
+[14:55:15] OOF baseline(0.50,0): dice=0.7696 | gain +0.0005
+[14:55:15] top5: (0.45,0,0.7701) | (0.40,0,0.7697) | (0.50,0,0.7696) | (0.40,30,0.7687) | (0.35,0,0.7685)
+[14:55:16] 
+[14:55:16] loaded 5 models for test inference
+[14:55:23]   1.jpg      vessel_ratio=0.0894
+[14:55:30]   2.jpg      vessel_ratio=0.0821
+[14:55:38]   3.jpg      vessel_ratio=0.0834
+[14:55:45]   4.jpg      vessel_ratio=0.0841
+[14:55:52]   5.jpg      vessel_ratio=0.0927
+[14:55:59]   6.jpg      vessel_ratio=0.0899
+[14:56:06]   7.jpg      vessel_ratio=0.0939
+[14:56:13]   8.jpg      vessel_ratio=0.0879
+[14:56:20]   9.jpg      vessel_ratio=0.0940
+[14:56:28]   10.jpg     vessel_ratio=0.0894
+[14:56:35]   11.jpg     vessel_ratio=0.0743
+[14:56:42]   12.jpg     vessel_ratio=0.0773
+[14:56:50]   13.jpg     vessel_ratio=0.1065
+[14:56:57]   14.jpg     vessel_ratio=0.0909
+[14:57:04]   15.jpg     vessel_ratio=0.1059
+[14:57:12]   16.jpg     vessel_ratio=0.0842
+[14:57:19]   17.jpg     vessel_ratio=0.0937
+[14:57:26]   18.jpg     vessel_ratio=0.0992
+[14:57:33]   19.jpg     vessel_ratio=0.0831
+[14:57:40]   20.jpg     vessel_ratio=0.0840
+[14:57:40] test inference done in 143.9s
+[14:57:44] official script rc=0
+[14:57:44] 
+[14:57:44] submission -> run\submission.csv  (20 rows)
+[14:57:44] total elapsed 65.0 min

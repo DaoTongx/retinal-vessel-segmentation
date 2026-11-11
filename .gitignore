@@ -1,0 +1,47 @@
+# ---------- 数据 ----------
+data/
+*.jpg
+*.jpeg
+*.zip
+
+# ---------- 模型权重（体积大，不入库）----------
+*.pth
+*.pt
+*.onnx
+*.npz
+
+# ---------- Python 环境 ----------
+vascx_env/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ---------- 中间产物 ----------
+run_smoke/
+vascx_train_all/
+vascx_trainall/
+vascx_test_all/
+vascx_single/
+vascx_tmp/
+vascx_train/
+report/_pv/
+
+# 推理中间图（提交文件本身保留）
+run/image/
+run/predictions/
+union_run/image/
+union_run/predictions/
+
+# ---------- 根目录重复文件（正式版见 src/ 与 notebooks/）----------
+/train_local.py
+/vascx_batch.py
+/make_union_submission.py
+/vessel_segmentation_kaggle.ipynb
+/prediction_preview.png
+/vascx_vs_gt.png
+
+# ---------- 系统文件 ----------
+Thumbs.db
+.DS_Store
+desktop.ini
